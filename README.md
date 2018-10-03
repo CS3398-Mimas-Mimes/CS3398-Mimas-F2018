@@ -1,1 +1,1 @@
-# CS3398-Mimas-F2018
+# ThreeSolidPrinciples

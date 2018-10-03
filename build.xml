@@ -1,0 +1,32 @@
+<project>
+	<target name="mimas">
+		<echo message="Running all targets in succession: clean, compile, jar, run."/>
+		<antcall target="clean"/>
+		<antcall target="compile"/>
+		<antcall target="jar"/>
+		<antcall target="run"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/OrderTransaction.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="ordertransaction.OrderTransaction"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="build/jar/OrderTransaction.jar" fork="true"/>
+    </target>
+
+</project>
