@@ -24,12 +24,11 @@ public class Order implements Serializable {
   
   public Order(int newNum, 
                int newCustomer, 
-               int newStatus, 
                float newPrice, 
                ArrayList<Integer> list){
     orderNum = newNum;
     customerID = newCustomer;
-    status = newStatus;
+    status = 1;  // Set wailist as default status
     subPrice = newPrice;
     foodList = new ArrayList<>(list);
   }
@@ -44,8 +43,16 @@ public class Order implements Serializable {
   }
   
   public void foodDisplay(){
-    for(int i = 0; i < foodList.size(); i++){
-      System.out.println(foodList.get(i));
+    for(int i = 0; i < foodList.size(); i += 2){
+      System.out.println(foodList.get(i) + "   "  + foodList.get(i+1));
     }
+  }
+  
+  public int getOrderNum(){
+    return orderNum;
+  }
+  
+  public void setStatus(int newStatus){
+    status = newStatus;
   }
 }
