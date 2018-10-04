@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+<!-- (If you delete it and reopen the project it will be recreated.) -->
+<!-- By default, only the Clean and Build commands use this build script. -->
+<!-- Commands such as Run, Debug, and Test only use this build script if -->
+<!-- the Compile on Save feature is turned off for the project. -->
+<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
+<!-- in the project's Project Properties dialog box.-->
+<project>
+	<target name="mimas-backend">
+		<echo message="Running all targets in succession: clean, compile, jar, run."/>
+		<antcall target="clean"/>
+		<antcall target="compile"/>
+		<antcall target="jar"/>
+		<antcall target="run"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="/BackEnd/Menu/build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="/BackEnd/Menu/build/classes"/>
+        <javac srcdir="/BackEnd/Menu/src" destdir="/BackEnd/Menu/build/classes"/>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="/BackEnd/Menu/build/jar"/>
+        <jar destfile="/BackEnd/Menu/build/jar/Menu.jar" basedir="/BackEnd/Menu/build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="menu.Menu"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="/BackEnd/Menu/build/jar/Menu.jar" fork="true"/>
+    </target>
+
+</project>
