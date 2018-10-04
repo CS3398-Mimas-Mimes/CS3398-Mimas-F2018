@@ -7,11 +7,11 @@ An Android restaurant ordering app allows the user to check various categories o
 
 <a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/tree/master/BackEnd/customer">Customer Branch.</a><br>    
 - Contains codes of Customer Database
-- Currently having issues building with Travis-CI, however it builds on local machine. In process of figuring out why incorporation does not successfully build. 
+- Currently having issues building with Travis-CI, however it builds on local machine. In process of figuring out why incorporation does not successfully build (ticket in-progress, see for details). 
 
 <a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/tree/master/BackEnd/Menu">Menu Branch.</a><br>    
 - Contains codes of Menu Database
-- Currently having issues building with Travis-CI, however it builds on local machine. In process of figuring out why incorporation does not successfully build.
+- Currently having issues building with Travis-CI, however it builds on local machine. In process of figuring out why incorporation does not successfully build (ticket in-progress, see for details).
 
 # Travis-CI
 Auto builds with Travis-CI
