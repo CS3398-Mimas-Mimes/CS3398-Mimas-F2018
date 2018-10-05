@@ -18,6 +18,7 @@ public class Order implements Serializable {
   private int status;
   private float subPrice;
   private ArrayList<Integer> foodList;
+  private int  paymentID;
   
   public Order(){
   }
@@ -54,5 +55,21 @@ public class Order implements Serializable {
   
   public void setStatus(int newStatus){
     status = newStatus;
+  }
+  
+  public void setPayID(int payID){
+    paymentID = payID;
+  }
+  
+  public int getPayID(){
+    return paymentID;
+  }
+    
+  public float getSubPrice(){
+    return subPrice;
+  }
+  
+  public int getStatus(){
+    return status;
   }
 }
