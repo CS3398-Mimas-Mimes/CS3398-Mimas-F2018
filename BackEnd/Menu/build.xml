@@ -22,7 +22,7 @@
 
     <target name="compile">
         <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="build/classes"/>
+        <javac srcdir="src/Menu" destdir="build/classes"/>
     </target>
 
     <target name="jar">
