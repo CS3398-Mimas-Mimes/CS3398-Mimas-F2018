@@ -17,3 +17,4 @@ An Android restaurant ordering app allows the user to check various categories o
 Auto builds with Travis-CI
 
 <a href="https://travis-ci.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/builds/86799670">OrderTransaction Branch.</a><br>
+<a href="https://travis-ci.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/builds/87372068">Create_Menu_Class Branch.</a><br>
