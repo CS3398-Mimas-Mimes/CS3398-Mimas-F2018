@@ -18,15 +18,15 @@
 
     <target name="jar">
         <mkdir dir="build/jar"/>
-        <jar destfile="build/jar/CustomerDB.jar" basedir="build/classes">
+        <jar destfile="build/jar/OrderTransaction.jar" basedir="build/classes">
             <manifest>
-                <attribute name="Main-Class" value="customer.CustomerDB"/>
+                <attribute name="Main-Class" value="ordertransaction.OrderTransaction"/>
             </manifest>
         </jar>
     </target>
 
     <target name="run">
-        <java jar="build/jar/CustomerDB.jar" fork="true"/>
+        <java jar="build/jar/OrderTransaction.jar" fork="true"/>
     </target>
 
 </project>
