@@ -25,7 +25,7 @@ Auto builds with Travis-CI (Running Code gets Automatic)
 Currently, we have a frontend (which is built using Android Studio), that displays a basic login/signup/homepage for our restaurant ordering app. This frontend is not yet connected with our backend (which includes java code for Customer, Menu items, Orders, and Transactions). Our goal is to connect these two ends together in the next sprint. Next steps for our team members include:
 * Andrew Hyatt: Research and set up database and server, possibly using Herokuapp (discussed in class).
 * Danh Pham: 
-* Le Cuong:
+* Le Cuong: Design and format Homepage
 * Zak King:
 * Alexander Muyshondt:
 
