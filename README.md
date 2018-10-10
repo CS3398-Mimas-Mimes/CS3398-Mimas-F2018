@@ -24,8 +24,8 @@ Auto builds with Travis-CI (Running Code gets Automatic)
 # Status of Project
 Currently, we have a frontend (which is built using Android Studio), that displays a basic login/signup/homepage for our restaurant ordering app. This frontend is not yet connected with our backend (which includes java code for Customer, Menu items, Orders, and Transactions). Our goal is to connect these two ends together in the next sprint. Next steps for our team members include:
 * Andrew Hyatt: Research and set up database and server, possibly using Herokuapp (discussed in class).
-* Danh Pham: Create more feature for database and research how to create and connect database on the server (network)
-* Le Cuong:
+* Danh Pham: 
+* Le Cuong: Design and format Homepage
 * Zak King:
 * Alexander Muyshondt:
 
@@ -38,20 +38,12 @@ Andrew Hyatt
 
 Danh Pham
 
-* I work on the Order file, Transaction file, and some their functions. My work is save an 
-<a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/tree/orderTransaction">OrderTransaction Branch.</a><br>
+* <a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/tree/orderTransaction">OrderTransaction Branch.</a><br>
 
-* My work is organized on the the team branch (Master branch) at: 
-<a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/tree/master/BackEnd/orderTransaction">OrderTransaction Master.</a><br>
-
-* My job currently can run automatically on Travis_CI at: 
-<a href="https://travis-ci.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/builds/86799670">OrderTransaction Branch.</a><br>
-
-* What can I do to improve? I can discuss more with front end developers to improve our features and database file's format.
-
-* How does it work? In the past, I usually assume and create the features on my thought. However, my thought and the front end developer's thought may be different. By discussing more, I will know features and format that they need, and it make my job more eaier.
 
 Le Cuong
+* One issue that I have is how to connect these buttons link to each other and I may add on some more functianality.
+
 
 
 
