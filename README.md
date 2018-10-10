@@ -48,8 +48,8 @@ Danh Pham
  * How does it work? In the past, I usually assume and create the features on my thought. However, my thought and the front end developer's thought may be different. By discussing more, I will know features and format that they need, and it make my job more eaier.
 
 Le Cuong
-* One issue that I have is how to connect these buttons link to each other and I may add on some more functianality.
-
+* One issue that I have is how to connect these buttons link to each other and I may add on some more function.
+<a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/blob/master/FrontEnd/HomePageActivity.java">Home Page.</a><br>
 
 
 
