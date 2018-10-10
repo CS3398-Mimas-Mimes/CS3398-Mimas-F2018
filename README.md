@@ -26,7 +26,7 @@ Currently, we have a frontend (which is built using Android Studio), that displa
 * Andrew Hyatt: Research and set up database and server, possibly using Herokuapp (discussed in class).
 * Danh Pham: Create more feature for database and research how to create and connect database on the server (network) 
 * Le Cuong: Design and format Homepage
-* Zak King:
+* Zak King: Design and format sign up page
 * Alexander Muyshondt:
 
 # Individual (Artifact References and Proof of Work)
@@ -54,7 +54,9 @@ Le Cuong
 
 
 Zak King
-
+* One issue that I am working on is improving the look of the sign up page, make it more streamlined and pleasing to look at.
+<a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/blob/master/FrontEnd/activity_sign_up.xml">Sign up XML code.</a><br>
+<a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/blob/master/FrontEnd/SignUp.java">Sign up java code.</a><br>
 
 
 Alexander Muyshondt
