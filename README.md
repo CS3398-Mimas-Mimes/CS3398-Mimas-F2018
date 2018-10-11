@@ -42,6 +42,7 @@ Andrew Hyatt
 
 * <a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/tree/master/BackEnd/customer">Customer Backend Code</a><br>
 * <a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/tree/master/BackEnd/Menu/src/menu"> Menu Backend Code</a><br>
+* My code that automatically built is listed in the Travis-CI section above (Menu code)
 * One issue that I can improve is how I create new tasks (and my branching strategy for each task). In the previous sprint, I created my tasks in a way in which creating an individual branch per task was infeasible.
 * I will create exactly one branch per feature, which directly correlates with the tasks assigned to me.
 
