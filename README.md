@@ -27,7 +27,7 @@ Currently, we have a frontend (which is built using Android Studio), that displa
 * Danh Pham: Create more feature for database and research how to create and connect database on the server (network) 
 * Le Cuong: Design and format Homepage
 * Zak King: Design and format sign up page
-* Alexander Muyshondt:
+* Alexander Muyshondt: Design and format login page
 
 # Individual (Artifact References and Proof of Work)
 Andrew Hyatt
