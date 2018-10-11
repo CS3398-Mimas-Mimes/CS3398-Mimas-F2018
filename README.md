@@ -49,6 +49,7 @@ Danh Pham
 
 Le Cuong
 * One issue that I have is how to connect these buttons link to each other and I may add on some more function.
+* For improvement: I will talk with my team to see if we can expand our App so we can use it in the future.
 <a href="https://github.com/CS3398-Mimas-Mimes/CS3398-Mimas-F2018/blob/master/FrontEnd/HomePageActivity.java">Home Page.</a><br>
 
 
