@@ -62,7 +62,7 @@ Zak King
 
 
 Alexander Muyshondt
-
+* I can improve the GUI readability as well as app experience through better color palette. As well as usability with clearly defined menus for the customer.
 
 
 # Retroscpective (Sprint 1)
